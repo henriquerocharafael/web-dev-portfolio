@@ -1,0 +1,27 @@
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.cofounder {
+  background: var(--secondary-bg-color);
+  padding: var(--section-space) 0;
+}
+
+.cofounder h2 {
+  font-size: 2rem;
+}
+
+.text {
+  display: flex;
+  gap: 4.5rem;
+}
+
+.text h2 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 815px) {
+  .text {
+    flex-direction: column;
+  }
+}

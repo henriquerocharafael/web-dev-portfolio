@@ -1,0 +1,52 @@
+.header {
+  max-width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.nav ul li {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 815px) {
+  .header {
+    max-width: 90%;
+    height: 6.5rem;
+  }
+  .nav {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 435px) {
+  .header {
+    max-width: 92%;
+  }
+}

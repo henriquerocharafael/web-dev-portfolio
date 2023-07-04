@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --primary-color: #ffffff;
+  --secondary-color: #848484;
+  --button-color: #fbe850;
+  --primary-bg-color: #000000;
+  --secondary-bg-color: #2e3038;
+
+  /* Fonts */
+  --body-font: "Inter", sans-serif;
+  --headings-font: "Prata", sans-serif;
+
+  /* Space between sections */
+  --section-space: 4rem;
+}
+
+body {
+  background: var(--primary-bg-color);
+  color: var(--primary-color);
+  font-family: var(--body-font);
+  --webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2 {
+  font-family: var(--headings-font);
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.heading {
+  font-family: var(--headings-font);
+}
+
+.logo {
+  font-family: var(--headings-font);
+  cursor: pointer;
+}
+
+button {
+  background: var(--button-color);
+  font-family: var(--headings-font);
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 815px) {
+  .wrapper {
+    max-width: 90%;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .wrapper {
+    max-width: 92%;
+  }
+}
