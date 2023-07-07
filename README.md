@@ -17,7 +17,7 @@ This website was made to show my progress in FrontEnd Skills <br/>
 <br>
 
 <p align="center">
-  <img src="./public/WM-Screenshots-20230706220949.jpg" width="100%">
+  <img src="./public/screenshot.png" width="100%">
 </p>
 
 ## 🚀 Technologies
@@ -34,7 +34,7 @@ This project was made with the following technologies:
 
 You can take a look at the live project through link https://superb-pony-bff186.netlify.app/.
 
-## :memo: Licença
+## :memo: License
 
 This project is under MIT license.
 
