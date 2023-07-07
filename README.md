@@ -1,30 +1,41 @@
+<h1 align="center"> Web Dev Portfolio - FrontEnd </h1>
 
-# Welcome to Codewell! 👋
+<p align="center">
+This website was made to show my progress in FrontEnd Skills <br/>
+</p>
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+<p align="center">
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">License</a>
+</p>
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-### I've completed the challenge, now what?
+<br>
 
-We recommend using one of these two websites to deploy your projects
+<p align="center">
+  <img src="./public/WM-Screenshots-20230706220949.jpg" width="100%">
+</p>
 
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
+## 🚀 Technologies
 
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+This project was made with the following technologies:
 
+- Vite
+- Typescript React
+- Git and Github
+- CSS Modules
+- React Icons
 
-### Submit your solution to Codewell
+## 🔖 Layout
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+You can take a look at the live project through link https://superb-pony-bff186.netlify.app/.
 
-### Join our community on Slack
+## :memo: Licença
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
+This project is under MIT license.
 
-### Fonts Used
-
-For headings: https://fonts.google.com/specimen/Prata
-For body: https://fonts.google.com/specimen/Inter
+---
